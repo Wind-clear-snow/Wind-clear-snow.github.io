@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>WInd-clear-snow</title><link>https://Wind-clear-snow.github.io</link><description>description</description><copyright>WInd-clear-snow</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://Wind-clear-snow.github.io</link></image><lastBuildDate>Mon, 02 Sep 2024 09:23:46 +0000</lastBuildDate><managingEditor>WInd-clear-snow</managingEditor><ttl>60</ttl><webMaster>WInd-clear-snow</webMaster><item><title>asdf</title><link>https://Wind-clear-snow.github.io/post/asdf.html</link><description>```cpp&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>WInd-clear-snow</title><link>https://Wind-clear-snow.github.io</link><description>description</description><copyright>WInd-clear-snow</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://Wind-clear-snow.github.io</link></image><lastBuildDate>Mon, 02 Sep 2024 09:25:31 +0000</lastBuildDate><managingEditor>WInd-clear-snow</managingEditor><ttl>60</ttl><webMaster>WInd-clear-snow</webMaster><item><title>TableLayout-test</title><link>https://Wind-clear-snow.github.io/post/TableLayout-test.html</link><description>```cpp&#13;
 &lt;?xml version='1.0' encoding='utf-8'?&gt;&#13;
 &lt;TableLayout xmlns:android='http://schemas.android.com/apk/res/android'&#13;
     xmlns:tools='http://schemas.android.com/tools'&#13;
@@ -69,7 +69,7 @@
 &#13;
 &#13;
 &lt;/TableLayout&gt;&#13;
-```。</description><guid isPermaLink="true">https://Wind-clear-snow.github.io/post/asdf.html</guid><pubDate>Mon, 02 Sep 2024 09:23:20 +0000</pubDate></item><item><title>SecondApp202</title><link>https://Wind-clear-snow.github.io/post/SecondApp202.html</link><description>- activity_main.xml&#13;
+```。</description><guid isPermaLink="true">https://Wind-clear-snow.github.io/post/TableLayout-test.html</guid><pubDate>Mon, 02 Sep 2024 09:23:20 +0000</pubDate></item><item><title>SecondApp202</title><link>https://Wind-clear-snow.github.io/post/SecondApp202.html</link><description>- activity_main.xml&#13;
 ```cpp&#13;
 &lt;?xml version='1.0' encoding='utf-8'?&gt;&#13;
 &lt;LinearLayout xmlns:android='http://schemas.android.com/apk/res/android'&#13;
