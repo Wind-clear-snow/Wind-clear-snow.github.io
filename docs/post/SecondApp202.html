@@ -284,94 +284,94 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <div class="markdown-body" id="postBody"><ul>
 <li>activity_main.xml</li>
 </ul>
-<div class="highlight highlight-source-c++"><pre class="notranslate">&lt;?xml version=<span class="pl-s"><span class="pl-pds">"</span>1.0<span class="pl-pds">"</span></span> encoding=<span class="pl-s"><span class="pl-pds">"</span>utf-8<span class="pl-pds">"</span></span>?&gt;
-&lt;LinearLayout xmlns:android=<span class="pl-s"><span class="pl-pds">"</span>http://schemas.android.com/apk/res/android<span class="pl-pds">"</span></span>
-    xmlns:app=<span class="pl-s"><span class="pl-pds">"</span>http://schemas.android.com/apk/res-auto<span class="pl-pds">"</span></span>
-    xmlns:tools=<span class="pl-s"><span class="pl-pds">"</span>http://schemas.android.com/tools<span class="pl-pds">"</span></span>
-    android:id=<span class="pl-s"><span class="pl-pds">"</span>@+id/main<span class="pl-pds">"</span></span>
-    android:layout_width=<span class="pl-s"><span class="pl-pds">"</span>fill_parent<span class="pl-pds">"</span></span>
-    android:layout_height=<span class="pl-s"><span class="pl-pds">"</span>fill_parent<span class="pl-pds">"</span></span>
-    android:orientation=<span class="pl-s"><span class="pl-pds">"</span>vertical<span class="pl-pds">"</span></span>
-    tools:context=<span class="pl-s"><span class="pl-pds">"</span>.MainActivity<span class="pl-pds">"</span></span>&gt;
+<div class="highlight highlight-source-c++"><pre class="notranslate">&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"&gt;
 
     &lt;LinearLayout
-        android:layout_width=<span class="pl-s"><span class="pl-pds">"</span>match_parent<span class="pl-pds">"</span></span>
-        android:layout_height=<span class="pl-s"><span class="pl-pds">"</span>fill_parent<span class="pl-pds">"</span></span>
-        android:orientation=<span class="pl-s"><span class="pl-pds">"</span>horizontal<span class="pl-pds">"</span></span>
-        android:layout_weight=<span class="pl-s"><span class="pl-pds">"</span>1<span class="pl-pds">"</span></span>&gt;
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"&gt;
         &lt;TextView
-            android:layout_width=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
-            android:layout_height=<span class="pl-s"><span class="pl-pds">"</span>fill_parent<span class="pl-pds">"</span></span>
-            android:text=<span class="pl-s"><span class="pl-pds">"</span>红色<span class="pl-pds">"</span></span>
-            android:gravity=<span class="pl-s"><span class="pl-pds">"</span>center<span class="pl-pds">"</span></span>
-            android:background=<span class="pl-s"><span class="pl-pds">"</span>#FF0000<span class="pl-pds">"</span></span>
-            android:layout_weight=<span class="pl-s"><span class="pl-pds">"</span>1<span class="pl-pds">"</span></span>/&gt;
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="红色"
+            android:gravity="center"
+            android:background="#FF0000"
+            android:layout_weight="1"/&gt;
 
         &lt;TextView
-            android:layout_width=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
-            android:layout_height=<span class="pl-s"><span class="pl-pds">"</span>fill_parent<span class="pl-pds">"</span></span>
-            android:text=<span class="pl-s"><span class="pl-pds">"</span>蓝色<span class="pl-pds">"</span></span>
-            android:textColor=<span class="pl-s"><span class="pl-pds">"</span>@color/white<span class="pl-pds">"</span></span>
-            android:gravity=<span class="pl-s"><span class="pl-pds">"</span>bottom<span class="pl-pds">"</span></span>
-            android:background=<span class="pl-s"><span class="pl-pds">"</span>#0000FF<span class="pl-pds">"</span></span>
-            android:layout_weight=<span class="pl-s"><span class="pl-pds">"</span>1<span class="pl-pds">"</span></span>/&gt;
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="蓝色"
+            android:textColor="@color/white"
+            android:gravity="bottom"
+            android:background="#0000FF"
+            android:layout_weight="1"/&gt;
 
         &lt;TextView
-            android:layout_width=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
-            android:layout_height=<span class="pl-s"><span class="pl-pds">"</span>fill_parent<span class="pl-pds">"</span></span>
-            android:text=<span class="pl-s"><span class="pl-pds">"</span>黄色<span class="pl-pds">"</span></span>
-            android:gravity=<span class="pl-s"><span class="pl-pds">"</span>top|center<span class="pl-pds">"</span></span>
-            android:background=<span class="pl-s"><span class="pl-pds">"</span>#FFFF00<span class="pl-pds">"</span></span>
-            android:layout_weight=<span class="pl-s"><span class="pl-pds">"</span>1<span class="pl-pds">"</span></span>/&gt;
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="黄色"
+            android:gravity="top|center"
+            android:background="#FFFF00"
+            android:layout_weight="1"/&gt;
 
         &lt;TextView
-            android:layout_width=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
-            android:layout_height=<span class="pl-s"><span class="pl-pds">"</span>fill_parent<span class="pl-pds">"</span></span>
-            android:text=<span class="pl-s"><span class="pl-pds">"</span>绿色<span class="pl-pds">"</span></span>
-            android:layout_gravity=<span class="pl-s"><span class="pl-pds">"</span>center<span class="pl-pds">"</span></span>
-            android:gravity=<span class="pl-s"><span class="pl-pds">"</span>fill_vertical<span class="pl-pds">"</span></span>
-            android:background=<span class="pl-s"><span class="pl-pds">"</span>#00FF00<span class="pl-pds">"</span></span>
-            android:layout_weight=<span class="pl-s"><span class="pl-pds">"</span>1<span class="pl-pds">"</span></span>/&gt;
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="绿色"
+            android:layout_gravity="center"
+            android:gravity="fill_vertical"
+            android:background="#00FF00"
+            android:layout_weight="1"/&gt;
 
     &lt;/LinearLayout&gt;
 
     &lt;LinearLayout
-        android:layout_width=<span class="pl-s"><span class="pl-pds">"</span>match_parent<span class="pl-pds">"</span></span>
-        android:layout_height=<span class="pl-s"><span class="pl-pds">"</span>fill_parent<span class="pl-pds">"</span></span>
-        android:orientation=<span class="pl-s"><span class="pl-pds">"</span>vertical<span class="pl-pds">"</span></span>
-        android:layout_weight=<span class="pl-s"><span class="pl-pds">"</span>1<span class="pl-pds">"</span></span>&gt;
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"&gt;
 
         &lt;TextView
-            android:layout_width=<span class="pl-s"><span class="pl-pds">"</span>fill_parent<span class="pl-pds">"</span></span>
-            android:layout_height=<span class="pl-s"><span class="pl-pds">"</span>fill_parent<span class="pl-pds">"</span></span>
-            android:text=<span class="pl-s"><span class="pl-pds">"</span>第一<span class="pl-pds">"</span></span>
-            android:gravity=<span class="pl-s"><span class="pl-pds">"</span>center<span class="pl-pds">"</span></span>
-            android:background=<span class="pl-s"><span class="pl-pds">"</span>#FF00FF<span class="pl-pds">"</span></span>
-            android:layout_weight=<span class="pl-s"><span class="pl-pds">"</span>1<span class="pl-pds">"</span></span>/&gt;
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="第一"
+            android:gravity="center"
+            android:background="#FF00FF"
+            android:layout_weight="1"/&gt;
 
         &lt;TextView
-            android:layout_width=<span class="pl-s"><span class="pl-pds">"</span>300dp<span class="pl-pds">"</span></span>
-            android:layout_height=<span class="pl-s"><span class="pl-pds">"</span>fill_parent<span class="pl-pds">"</span></span>
-            android:text=<span class="pl-s"><span class="pl-pds">"</span>第二<span class="pl-pds">"</span></span>
-            android:gravity=<span class="pl-s"><span class="pl-pds">"</span>center<span class="pl-pds">"</span></span>
-            android:background=<span class="pl-s"><span class="pl-pds">"</span>#FFA500<span class="pl-pds">"</span></span>
-            android:layout_weight=<span class="pl-s"><span class="pl-pds">"</span>1<span class="pl-pds">"</span></span>/&gt;
+            android:layout_width="300dp"
+            android:layout_height="fill_parent"
+            android:text="第二"
+            android:gravity="center"
+            android:background="#FFA500"
+            android:layout_weight="1"/&gt;
 
         &lt;TextView
-            android:layout_width=<span class="pl-s"><span class="pl-pds">"</span>200dp<span class="pl-pds">"</span></span>
-            android:layout_height=<span class="pl-s"><span class="pl-pds">"</span>fill_parent<span class="pl-pds">"</span></span>
-            android:text=<span class="pl-s"><span class="pl-pds">"</span>第三<span class="pl-pds">"</span></span>
-            android:gravity=<span class="pl-s"><span class="pl-pds">"</span>center<span class="pl-pds">"</span></span>
-            android:background=<span class="pl-s"><span class="pl-pds">"</span>#808080<span class="pl-pds">"</span></span>
-            android:layout_weight=<span class="pl-s"><span class="pl-pds">"</span>1<span class="pl-pds">"</span></span>/&gt;
+            android:layout_width="200dp"
+            android:layout_height="fill_parent"
+            android:text="第三"
+            android:gravity="center"
+            android:background="#808080"
+            android:layout_weight="1"/&gt;
 
         &lt;TextView
-            android:layout_width=<span class="pl-s"><span class="pl-pds">"</span>100dp<span class="pl-pds">"</span></span>
-            android:layout_height=<span class="pl-s"><span class="pl-pds">"</span>fill_parent<span class="pl-pds">"</span></span>
-            android:text=<span class="pl-s"><span class="pl-pds">"</span>第四<span class="pl-pds">"</span></span>
-            android:gravity=<span class="pl-s"><span class="pl-pds">"</span>center<span class="pl-pds">"</span></span>
-            android:background=<span class="pl-s"><span class="pl-pds">"</span>#C0C0C0<span class="pl-pds">"</span></span>
-            android:layout_weight=<span class="pl-s"><span class="pl-pds">"</span>1<span class="pl-pds">"</span></span>/&gt;
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:text="第四"
+            android:gravity="center"
+            android:background="#C0C0C0"
+            android:layout_weight="1"/&gt;
 
     &lt;/LinearLayout&gt;
 
