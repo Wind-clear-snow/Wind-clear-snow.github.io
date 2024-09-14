@@ -43,6 +43,11 @@
         android:layout_width="240px"
         android:layout_height="wrap_content"
         android:text="除(÷)" />
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="240px"
+        android:layout_height="wrap_content"
+        android:text="乘方" />
 
     <TextView
         android:id="@+id/result"
@@ -98,11 +103,14 @@ public class MainActivity extends AppCompatActivity {
         Button btn2 = (Button)findViewById(R.id.btn2);
         Button btn3 = (Button)findViewById(R.id.btn3);
         Button btn4 = (Button)findViewById(R.id.btn4);
+        Button btn5 = (Button)findViewById(R.id.btn5);
+
 
         btn1.setOnClickListener(listener);
         btn2.setOnClickListener(listener);
         btn3.setOnClickListener(listener);
         btn4.setOnClickListener(listener);
+        btn5.setOnClickListener(listener);
 
     }
 
@@ -145,8 +153,12 @@ public class MainActivity extends AppCompatActivity {
                         return;
                     }
                     break;
+                case R.id.btn5:
+                    result = Math.pow(num1, num2);
+                    operation = "乘方";
+                    break;
             }
-
+            Toast.makeText(MainActivity.this, "结果 (" + operation + ")：" + result,Toast.LENGTH_SHORT).show();
             resultTextView.setText("结果 (" + operation + ")：" + result);
         }
     };
@@ -155,4 +167,4 @@ public class MainActivity extends AppCompatActivity {
 
 ---
 
-![image](https://github.com/user-attachments/assets/49390a40-701c-44c8-8aa9-1ce5c7af379c)
+![image](https://github.com/user-attachments/assets/e2609b13-9317-45ea-ac60-a9433999b2c6)

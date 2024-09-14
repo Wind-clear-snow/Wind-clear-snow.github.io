@@ -55,6 +55,11 @@
         android:layout_width='240px'
         android:layout_height='wrap_content'
         android:text='除(÷)' />
+    <Button
+        android:id='@+id/btn5'
+        android:layout_width='240px'
+        android:layout_height='wrap_content'
+        android:text='乘方' />
 
     <TextView
         android:id='@+id/result'
@@ -110,11 +115,14 @@ public class MainActivity extends AppCompatActivity {
         Button btn2 = (Button)findViewById(R.id.btn2);
         Button btn3 = (Button)findViewById(R.id.btn3);
         Button btn4 = (Button)findViewById(R.id.btn4);
+        Button btn5 = (Button)findViewById(R.id.btn5);
+
 
         btn1.setOnClickListener(listener);
         btn2.setOnClickListener(listener);
         btn3.setOnClickListener(listener);
         btn4.setOnClickListener(listener);
+        btn5.setOnClickListener(listener);
 
     }
 
@@ -157,8 +165,12 @@ public class MainActivity extends AppCompatActivity {
                         return;
                     }
                     break;
+                case R.id.btn5:
+                    result = Math.pow(num1, num2);
+                    operation = '乘方';
+                    break;
             }
-
+            Toast.makeText(MainActivity.this, '结果 (' + operation + ')：' + result,Toast.LENGTH_SHORT).show();
             resultTextView.setText('结果 (' + operation + ')：' + result);
         }
     };
@@ -167,7 +179,7 @@ public class MainActivity extends AppCompatActivity {
 
 ---
 
-![image](https://github.com/user-attachments/assets/49390a40-701c-44c8-8aa9-1ce5c7af379c)
+![image](https://github.com/user-attachments/assets/e2609b13-9317-45ea-ac60-a9433999b2c6)
 。">
 <meta property="og:title" content="algorithm-test">
 <meta property="og:description" content="```cpp
@@ -215,6 +227,11 @@ public class MainActivity extends AppCompatActivity {
         android:layout_width='240px'
         android:layout_height='wrap_content'
         android:text='除(÷)' />
+    <Button
+        android:id='@+id/btn5'
+        android:layout_width='240px'
+        android:layout_height='wrap_content'
+        android:text='乘方' />
 
     <TextView
         android:id='@+id/result'
@@ -270,11 +287,14 @@ public class MainActivity extends AppCompatActivity {
         Button btn2 = (Button)findViewById(R.id.btn2);
         Button btn3 = (Button)findViewById(R.id.btn3);
         Button btn4 = (Button)findViewById(R.id.btn4);
+        Button btn5 = (Button)findViewById(R.id.btn5);
+
 
         btn1.setOnClickListener(listener);
         btn2.setOnClickListener(listener);
         btn3.setOnClickListener(listener);
         btn4.setOnClickListener(listener);
+        btn5.setOnClickListener(listener);
 
     }
 
@@ -317,8 +337,12 @@ public class MainActivity extends AppCompatActivity {
                         return;
                     }
                     break;
+                case R.id.btn5:
+                    result = Math.pow(num1, num2);
+                    operation = '乘方';
+                    break;
             }
-
+            Toast.makeText(MainActivity.this, '结果 (' + operation + ')：' + result,Toast.LENGTH_SHORT).show();
             resultTextView.setText('结果 (' + operation + ')：' + result);
         }
     };
@@ -327,7 +351,7 @@ public class MainActivity extends AppCompatActivity {
 
 ---
 
-![image](https://github.com/user-attachments/assets/49390a40-701c-44c8-8aa9-1ce5c7af379c)
+![image](https://github.com/user-attachments/assets/e2609b13-9317-45ea-ac60-a9433999b2c6)
 。">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://Wind-clear-snow.github.io/post/algorithm-test.html">
@@ -443,6 +467,11 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
         android:layout_width="240px"
         android:layout_height="wrap_content"
         android:text="除(÷)" /&gt;
+    &lt;Button
+        android:id="@+id/btn5"
+        android:layout_width="240px"
+        android:layout_height="wrap_content"
+        android:text="乘方" /&gt;
 
     &lt;TextView
         android:id="@+id/result"
@@ -494,11 +523,14 @@ public class MainActivity extends AppCompatActivity {
         Button btn2 = (Button)findViewById(R.id.btn2);
         Button btn3 = (Button)findViewById(R.id.btn3);
         Button btn4 = (Button)findViewById(R.id.btn4);
+        Button btn5 = (Button)findViewById(R.id.btn5);
+
 
         btn1.setOnClickListener(listener);
         btn2.setOnClickListener(listener);
         btn3.setOnClickListener(listener);
         btn4.setOnClickListener(listener);
+        btn5.setOnClickListener(listener);
 
     }
 
@@ -541,14 +573,18 @@ public class MainActivity extends AppCompatActivity {
                         return;
                     }
                     break;
+                case R.id.btn5:
+                    result = Math.pow(num1, num2);
+                    operation = "乘方";
+                    break;
             }
-
+            Toast.makeText(MainActivity.this, "结果 (" + operation + ")：" + result,Toast.LENGTH_SHORT).show();
             resultTextView.setText("结果 (" + operation + ")：" + result);
         }
     };
 }</pre></div>
 <hr>
-<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/49390a40-701c-44c8-8aa9-1ce5c7af379c"><img src="https://github.com/user-attachments/assets/49390a40-701c-44c8-8aa9-1ce5c7af379c" alt="image" style="max-width: 100%;"></a></p></div>
+<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/e2609b13-9317-45ea-ac60-a9433999b2c6"><img src="https://github.com/user-attachments/assets/e2609b13-9317-45ea-ac60-a9433999b2c6" alt="image" style="max-width: 100%;"></a></p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
