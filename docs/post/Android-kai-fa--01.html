@@ -399,42 +399,42 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <li>两个Button部件<br>
 activity_main.xml代码如下</li>
 </ul>
-<div class="highlight highlight-source-c++"><pre class="notranslate">&lt;?xml version="1.0" encoding="utf-8"?&gt;
-&lt;LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center"
-    android:orientation="vertical"&gt;
+<div class="highlight highlight-source-c++"><pre class="notranslate">&lt;?xml version=<span class="pl-s"><span class="pl-pds">"</span>1.0<span class="pl-pds">"</span></span> encoding=<span class="pl-s"><span class="pl-pds">"</span>utf-8<span class="pl-pds">"</span></span>?&gt;
+&lt;LinearLayout xmlns:android=<span class="pl-s"><span class="pl-pds">"</span>http://schemas.android.com/apk/res/android<span class="pl-pds">"</span></span>
+    android:layout_width=<span class="pl-s"><span class="pl-pds">"</span>match_parent<span class="pl-pds">"</span></span>
+    android:layout_height=<span class="pl-s"><span class="pl-pds">"</span>match_parent<span class="pl-pds">"</span></span>
+    android:gravity=<span class="pl-s"><span class="pl-pds">"</span>center<span class="pl-pds">"</span></span>
+    android:orientation=<span class="pl-s"><span class="pl-pds">"</span>vertical<span class="pl-pds">"</span></span>&gt;
 
     &lt;TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/question_text" /&gt;
+        android:layout_width=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+        android:layout_height=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+        android:text=<span class="pl-s"><span class="pl-pds">"</span>@string/question_text<span class="pl-pds">"</span></span> /&gt;
 
     &lt;LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"&gt;
+        android:layout_width=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+        android:layout_height=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+        android:orientation=<span class="pl-s"><span class="pl-pds">"</span>horizontal<span class="pl-pds">"</span></span>&gt;
 
         &lt;Button
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:text="@string/true_button"/&gt;
+            android:layout_height=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+            android:layout_width=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+            android:text=<span class="pl-s"><span class="pl-pds">"</span>@string/true_button<span class="pl-pds">"</span></span>/&gt;
 
         &lt;Button
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:text="@string/false_button"/&gt;
+            android:layout_height=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+            android:layout_width=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+            android:text=<span class="pl-s"><span class="pl-pds">"</span>@string/false_button<span class="pl-pds">"</span></span>/&gt;
 
     &lt;/LinearLayout&gt;
 
 &lt;/LinearLayout&gt;</pre></div>
 <p>strings.xml的代码如下</p>
 <div class="highlight highlight-source-c++"><pre class="notranslate">&lt;resources&gt;
-    &lt;string name="app_name"&gt;My <span class="pl-en">Application</span>&lt;/string&gt;
-    &lt;string name="question_text"&gt;how are <span class="pl-en">you</span>&lt;/string&gt;
-    &lt;string name="true_button"&gt;true&lt;/string&gt;
-    &lt;string name="false_button"&gt;false&lt;/string&gt;
+    &lt;string name=<span class="pl-s"><span class="pl-pds">"</span>app_name<span class="pl-pds">"</span></span>&gt;My Application&lt;/string&gt;
+    &lt;string name=<span class="pl-s"><span class="pl-pds">"</span>question_text<span class="pl-pds">"</span></span>&gt;how are you&lt;/string&gt;
+    &lt;string name=<span class="pl-s"><span class="pl-pds">"</span>true_button<span class="pl-pds">"</span></span>&gt;<span class="pl-c1">true</span>&lt;/string&gt;
+    &lt;string name=<span class="pl-s"><span class="pl-pds">"</span>false_button<span class="pl-pds">"</span></span>&gt;<span class="pl-c1">false</span>&lt;/string&gt;
 
 &lt;/resources&gt;</pre></div>
 <p>效果为</p>
@@ -450,9 +450,9 @@ activity_main.xml代码如下</li>
 例:</li>
 </ul>
 <div class="highlight highlight-source-c++"><pre class="notranslate">&lt;TextView
-      android:layout_width="wrap_content"
-      android:layout_height="match_parent"
-      android:text="@string/question_text" /&gt;</pre></div>
+      android:layout_width=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+      android:layout_height=<span class="pl-s"><span class="pl-pds">"</span>match_parent<span class="pl-pds">"</span></span>
+      android:text=<span class="pl-s"><span class="pl-pds">"</span>@string/question_text<span class="pl-pds">"</span></span> /&gt;</pre></div>
 <ol start="2">
 <li>android:orientation<br>
 这个属性决定部件是水平放置还是垂直放置 属性值为</li>
@@ -462,24 +462,24 @@ activity_main.xml代码如下</li>
 <li>horizontal 水平</li>
 </ul>
 <div class="highlight highlight-source-c++"><pre class="notranslate">    &lt;LinearLayout
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:orientation="horizontal"&gt;
+       android:layout_width=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+       android:layout_height=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+       android:orientation=<span class="pl-s"><span class="pl-pds">"</span>horizontal<span class="pl-pds">"</span></span>&gt;
    &lt;/LinearLayout&gt;
    
    &lt;LinearLayout
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:orientation="vertical"&gt;
+       android:layout_width=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+       android:layout_height=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+       android:orientation=<span class="pl-s"><span class="pl-pds">"</span>vertical<span class="pl-pds">"</span></span>&gt;
    &lt;/LinearLayout&gt;</pre></div>
 <ol start="3">
 <li>android:text<br>
 该属性指定部件显示的文字 注意:该属性的值不为字符串 而是以@string/语法形式对字符串资源(strings.xml)的引用</li>
 </ol>
 <div class="highlight highlight-source-c++"><pre class="notranslate">   &lt;TextView
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:text="@string/question_text" /&gt;</pre></div></div>
+       android:layout_width=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+       android:layout_height=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+       android:text=<span class="pl-s"><span class="pl-pds">"</span>@string/question_text<span class="pl-pds">"</span></span> /&gt;</pre></div></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>

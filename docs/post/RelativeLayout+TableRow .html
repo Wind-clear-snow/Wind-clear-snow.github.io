@@ -293,103 +293,104 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><div class="highlight highlight-source-c++"><pre class="notranslate">&lt;?xml version="1.0" encoding="utf-8"?&gt;
-&lt;TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:gravity="center_vertical"
-    android:stretchColumns="0,3"
-    tools:context=".MainActivity"&gt;
+<div class="markdown-body" id="postBody"><div class="highlight highlight-source-c++"><pre class="notranslate">&lt;?xml version=<span class="pl-s"><span class="pl-pds">"</span>1.0<span class="pl-pds">"</span></span> encoding=<span class="pl-s"><span class="pl-pds">"</span>utf-8<span class="pl-pds">"</span></span>?&gt;
+&lt;TableLayout xmlns:android=<span class="pl-s"><span class="pl-pds">"</span>http://schemas.android.com/apk/res/android<span class="pl-pds">"</span></span>
+    xmlns:tools=<span class="pl-s"><span class="pl-pds">"</span>http://schemas.android.com/tools<span class="pl-pds">"</span></span>
+    android:id=<span class="pl-s"><span class="pl-pds">"</span>@+id/main<span class="pl-pds">"</span></span>
+    android:layout_width=<span class="pl-s"><span class="pl-pds">"</span>fill_parent<span class="pl-pds">"</span></span>
+    android:layout_height=<span class="pl-s"><span class="pl-pds">"</span>fill_parent<span class="pl-pds">"</span></span>
+    android:gravity=<span class="pl-s"><span class="pl-pds">"</span>center_vertical<span class="pl-pds">"</span></span>
+    android:stretchColumns=<span class="pl-s"><span class="pl-pds">"</span>0,3<span class="pl-pds">"</span></span>
+    tools:context=<span class="pl-s"><span class="pl-pds">"</span>.MainActivity<span class="pl-pds">"</span></span>&gt;
 
-    &lt;TableRow android:id="@+id/TableRow01"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"&gt;
+    &lt;TableRow android:id=<span class="pl-s"><span class="pl-pds">"</span>@+id/TableRow01<span class="pl-pds">"</span></span>
+        android:layout_width=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+        android:layout_height=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>&gt;
         &lt;TextView/&gt;
-        &lt;TextView android:id="@+id/TextView01"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="24px"
-            android:text="用户名："/&gt;
+        &lt;TextView android:id=<span class="pl-s"><span class="pl-pds">"</span>@+id/TextView01<span class="pl-pds">"</span></span>
+            android:layout_width=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+            android:layout_height=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+            android:textSize=<span class="pl-s"><span class="pl-pds">"</span>24px<span class="pl-pds">"</span></span>
+            android:text=<span class="pl-s"><span class="pl-pds">"</span>用户名：<span class="pl-pds">"</span></span>/&gt;
 
-        &lt;EditText android:id="@+id/EditText01"
-            android:textSize="24px"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="请输入用户名"
-            android:minWidth="300px"/&gt;
-        &lt;TextView/&gt;
-    &lt;/TableRow&gt;
-
-
-    &lt;TableRow android:id="@+id/TableRow02"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"&gt;
-        &lt;TextView/&gt;
-        &lt;TextView android:id="@+id/TextView02"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="24px"
-            android:text="密 码："/&gt;
-
-        &lt;EditText android:id="@+id/EditText02"
-            android:textSize="24px"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="请输入密码"
-            android:minWidth="300px"
-            android:inputType="textPassword"/&gt;
+        &lt;EditText android:id=<span class="pl-s"><span class="pl-pds">"</span>@+id/EditText01<span class="pl-pds">"</span></span>
+            android:textSize=<span class="pl-s"><span class="pl-pds">"</span>24px<span class="pl-pds">"</span></span>
+            android:layout_width=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+            android:layout_height=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+            android:hint=<span class="pl-s"><span class="pl-pds">"</span>请输入用户名<span class="pl-pds">"</span></span>
+            android:minWidth=<span class="pl-s"><span class="pl-pds">"</span>300px<span class="pl-pds">"</span></span>/&gt;
         &lt;TextView/&gt;
     &lt;/TableRow&gt;
 
 
-    &lt;TableRow android:id="@+id/TableRow03"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"&gt;
+    &lt;TableRow android:id=<span class="pl-s"><span class="pl-pds">"</span>@+id/TableRow02<span class="pl-pds">"</span></span>
+        android:layout_width=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+        android:layout_height=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>&gt;
         &lt;TextView/&gt;
-        &lt;TextView android:id="@+id/TextView03"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="24px"
-            android:text="手机号码："/&gt;
+        &lt;TextView android:id=<span class="pl-s"><span class="pl-pds">"</span>@+id/TextView02<span class="pl-pds">"</span></span>
+            android:layout_width=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+            android:layout_height=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+            android:textSize=<span class="pl-s"><span class="pl-pds">"</span>24px<span class="pl-pds">"</span></span>
+            android:text=<span class="pl-s"><span class="pl-pds">"</span>密 码：<span class="pl-pds">"</span></span>/&gt;
 
-        &lt;EditText android:id="@+id/EditText03"
-            android:textSize="24px"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="请输入手机号码"
-            android:minWidth="300px"
-            android:maxLength="11"
-            android:inputType="textPhonetic"/&gt;
+        &lt;EditText android:id=<span class="pl-s"><span class="pl-pds">"</span>@+id/EditText02<span class="pl-pds">"</span></span>
+            android:textSize=<span class="pl-s"><span class="pl-pds">"</span>24px<span class="pl-pds">"</span></span>
+            android:layout_width=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+            android:layout_height=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+            android:hint=<span class="pl-s"><span class="pl-pds">"</span>请输入密码<span class="pl-pds">"</span></span>
+            android:minWidth=<span class="pl-s"><span class="pl-pds">"</span>300px<span class="pl-pds">"</span></span>
+            android:inputType=<span class="pl-s"><span class="pl-pds">"</span>textPassword<span class="pl-pds">"</span></span>/&gt;
+        &lt;TextView/&gt;
+    &lt;/TableRow&gt;
+
+
+    &lt;TableRow android:id=<span class="pl-s"><span class="pl-pds">"</span>@+id/TableRow03<span class="pl-pds">"</span></span>
+        android:layout_width=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+        android:layout_height=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>&gt;
+        &lt;TextView/&gt;
+        &lt;TextView android:id=<span class="pl-s"><span class="pl-pds">"</span>@+id/TextView03<span class="pl-pds">"</span></span>
+            android:layout_width=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+            android:layout_height=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+            android:textSize=<span class="pl-s"><span class="pl-pds">"</span>24px<span class="pl-pds">"</span></span>
+            android:text=<span class="pl-s"><span class="pl-pds">"</span>手机号码：<span class="pl-pds">"</span></span>/&gt;
+
+        &lt;EditText android:id=<span class="pl-s"><span class="pl-pds">"</span>@+id/EditText03<span class="pl-pds">"</span></span>
+            android:textSize=<span class="pl-s"><span class="pl-pds">"</span>24px<span class="pl-pds">"</span></span>
+            android:layout_width=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+            android:layout_height=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+            android:hint=<span class="pl-s"><span class="pl-pds">"</span>请输入手机号码<span class="pl-pds">"</span></span>
+            android:minWidth=<span class="pl-s"><span class="pl-pds">"</span>300px<span class="pl-pds">"</span></span>
+            android:maxLength=<span class="pl-s"><span class="pl-pds">"</span>11<span class="pl-pds">"</span></span>
+            android:inputType=<span class="pl-s"><span class="pl-pds">"</span>textPhonetic<span class="pl-pds">"</span></span>/&gt;
         &lt;TextView/&gt;
     &lt;/TableRow&gt;
 
     &lt;RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"&gt;
+        android:layout_width=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+        android:layout_height=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+        android:layout_marginTop=<span class="pl-s"><span class="pl-pds">"</span>16dp<span class="pl-pds">"</span></span>&gt;
 
         &lt;Button
-            android:id="@+id/Button01"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_marginStart="105dp"
-            android:text="登录" /&gt;
+            android:id=<span class="pl-s"><span class="pl-pds">"</span>@+id/Button01<span class="pl-pds">"</span></span>
+            android:layout_width=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+            android:layout_height=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+            android:layout_alignParentStart=<span class="pl-s"><span class="pl-pds">"</span>true<span class="pl-pds">"</span></span>
+            android:layout_marginStart=<span class="pl-s"><span class="pl-pds">"</span>105dp<span class="pl-pds">"</span></span>
+            android:text=<span class="pl-s"><span class="pl-pds">"</span>登录<span class="pl-pds">"</span></span> /&gt;
 
         &lt;Button
-            android:id="@+id/Button02"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="29dp"
-            android:layout_toEndOf="@id/Button01"
-            android:text="取消" /&gt;
+            android:id=<span class="pl-s"><span class="pl-pds">"</span>@+id/Button02<span class="pl-pds">"</span></span>
+            android:layout_width=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+            android:layout_height=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+            android:layout_marginStart=<span class="pl-s"><span class="pl-pds">"</span>29dp<span class="pl-pds">"</span></span>
+            android:layout_toEndOf=<span class="pl-s"><span class="pl-pds">"</span>@id/Button01<span class="pl-pds">"</span></span>
+            android:text=<span class="pl-s"><span class="pl-pds">"</span>取消<span class="pl-pds">"</span></span> /&gt;
 
     &lt;/RelativeLayout&gt;
 
 
-&lt;/TableLayout&gt;</pre></div>
+&lt;/TableLayout&gt;
+</pre></div>
 <hr>
 <p>结果</p>
 <p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/f46f63e6-00a9-40c9-9f76-bfbdbfe5eb5a"><img src="https://github.com/user-attachments/assets/f46f63e6-00a9-40c9-9f76-bfbdbfe5eb5a" alt="image" style="max-width: 100%;"></a></p></div>

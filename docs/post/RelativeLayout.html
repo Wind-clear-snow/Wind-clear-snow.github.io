@@ -195,54 +195,54 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><div class="highlight highlight-source-c++"><pre class="notranslate">&lt;?xml version="1.0" encoding="utf-8"?&gt;
-&lt;RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:gravity="center_vertical"
-    android:stretchColumns="0,3"
-    tools:context=".MainActivity"&gt;
+<div class="markdown-body" id="postBody"><div class="highlight highlight-source-c++"><pre class="notranslate">&lt;?xml version=<span class="pl-s"><span class="pl-pds">"</span>1.0<span class="pl-pds">"</span></span> encoding=<span class="pl-s"><span class="pl-pds">"</span>utf-8<span class="pl-pds">"</span></span>?&gt;
+&lt;RelativeLayout xmlns:android=<span class="pl-s"><span class="pl-pds">"</span>http://schemas.android.com/apk/res/android<span class="pl-pds">"</span></span>
+    xmlns:tools=<span class="pl-s"><span class="pl-pds">"</span>http://schemas.android.com/tools<span class="pl-pds">"</span></span>
+    android:id=<span class="pl-s"><span class="pl-pds">"</span>@+id/main<span class="pl-pds">"</span></span>
+    android:layout_width=<span class="pl-s"><span class="pl-pds">"</span>fill_parent<span class="pl-pds">"</span></span>
+    android:layout_height=<span class="pl-s"><span class="pl-pds">"</span>fill_parent<span class="pl-pds">"</span></span>
+    android:gravity=<span class="pl-s"><span class="pl-pds">"</span>center_vertical<span class="pl-pds">"</span></span>
+    android:stretchColumns=<span class="pl-s"><span class="pl-pds">"</span>0,3<span class="pl-pds">"</span></span>
+    tools:context=<span class="pl-s"><span class="pl-pds">"</span>.MainActivity<span class="pl-pds">"</span></span>&gt;
 
     &lt;TextView
-        android:id="@+id/txt"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="手机号"
-        android:textSize="20dp"
-        android:layout_marginBottom="5dp"
+        android:id=<span class="pl-s"><span class="pl-pds">"</span>@+id/txt<span class="pl-pds">"</span></span>
+        android:layout_width=<span class="pl-s"><span class="pl-pds">"</span>fill_parent<span class="pl-pds">"</span></span>
+        android:layout_height=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+        android:text=<span class="pl-s"><span class="pl-pds">"</span>手机号<span class="pl-pds">"</span></span>
+        android:textSize=<span class="pl-s"><span class="pl-pds">"</span>20dp<span class="pl-pds">"</span></span>
+        android:layout_marginBottom=<span class="pl-s"><span class="pl-pds">"</span>5dp<span class="pl-pds">"</span></span>
         /&gt;
     &lt;EditText
-        android:id="@+id/edit"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/txt"
-        android:inputType="number"
-        android:hint="请输入手机号"
-        android:maxLength="11"
-        android:numeric="integer"
+        android:id=<span class="pl-s"><span class="pl-pds">"</span>@+id/edit<span class="pl-pds">"</span></span>
+        android:layout_width=<span class="pl-s"><span class="pl-pds">"</span>fill_parent<span class="pl-pds">"</span></span>
+        android:layout_height=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+        android:layout_below=<span class="pl-s"><span class="pl-pds">"</span>@id/txt<span class="pl-pds">"</span></span>
+        android:inputType=<span class="pl-s"><span class="pl-pds">"</span>number<span class="pl-pds">"</span></span>
+        android:hint=<span class="pl-s"><span class="pl-pds">"</span>请输入手机号<span class="pl-pds">"</span></span>
+        android:maxLength=<span class="pl-s"><span class="pl-pds">"</span>11<span class="pl-pds">"</span></span>
+        android:numeric=<span class="pl-s"><span class="pl-pds">"</span>integer<span class="pl-pds">"</span></span>
         /&gt;
 
     &lt;Button
-        android:id="@+id/btn1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/edit"
-        android:text="升天"
-        android:layout_alignParentLeft="true"
-        android:layout_marginTop="20dp"
+        android:id=<span class="pl-s"><span class="pl-pds">"</span>@+id/btn1<span class="pl-pds">"</span></span>
+        android:layout_width=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+        android:layout_height=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+        android:layout_below=<span class="pl-s"><span class="pl-pds">"</span>@id/edit<span class="pl-pds">"</span></span>
+        android:text=<span class="pl-s"><span class="pl-pds">"</span>升天<span class="pl-pds">"</span></span>
+        android:layout_alignParentLeft=<span class="pl-s"><span class="pl-pds">"</span>true<span class="pl-pds">"</span></span>
+        android:layout_marginTop=<span class="pl-s"><span class="pl-pds">"</span>20dp<span class="pl-pds">"</span></span>
         /&gt;
 
     &lt;Button
-        android:id="@+id/btn2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/edit"
-        android:layout_toRightOf="@id/btn1"
-        android:text="登录"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="20dp"/&gt;
+        android:id=<span class="pl-s"><span class="pl-pds">"</span>@+id/btn2<span class="pl-pds">"</span></span>
+        android:layout_width=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+        android:layout_height=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+        android:layout_below=<span class="pl-s"><span class="pl-pds">"</span>@id/edit<span class="pl-pds">"</span></span>
+        android:layout_toRightOf=<span class="pl-s"><span class="pl-pds">"</span>@id/btn1<span class="pl-pds">"</span></span>
+        android:text=<span class="pl-s"><span class="pl-pds">"</span>登录<span class="pl-pds">"</span></span>
+        android:layout_marginLeft=<span class="pl-s"><span class="pl-pds">"</span>20dp<span class="pl-pds">"</span></span>
+        android:layout_marginTop=<span class="pl-s"><span class="pl-pds">"</span>20dp<span class="pl-pds">"</span></span>/&gt;
 
 &lt;/RelativeLayout&gt;</pre></div>
 <hr>

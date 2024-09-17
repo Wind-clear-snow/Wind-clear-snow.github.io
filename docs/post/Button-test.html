@@ -303,41 +303,41 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><div class="highlight highlight-source-c++"><pre class="notranslate">&lt;?xml version="1.0" encoding="utf-8"?&gt;
-&lt;LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-    tools:context=".MainActivity"&gt;
+<div class="markdown-body" id="postBody"><div class="highlight highlight-source-c++"><pre class="notranslate">&lt;?xml version=<span class="pl-s"><span class="pl-pds">"</span>1.0<span class="pl-pds">"</span></span> encoding=<span class="pl-s"><span class="pl-pds">"</span>utf-8<span class="pl-pds">"</span></span>?&gt;
+&lt;LinearLayout xmlns:android=<span class="pl-s"><span class="pl-pds">"</span>http://schemas.android.com/apk/res/android<span class="pl-pds">"</span></span>
+    xmlns:tools=<span class="pl-s"><span class="pl-pds">"</span>http://schemas.android.com/tools<span class="pl-pds">"</span></span>
+    android:id=<span class="pl-s"><span class="pl-pds">"</span>@+id/main<span class="pl-pds">"</span></span>
+    android:layout_width=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+    android:layout_height=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+    android:orientation=<span class="pl-s"><span class="pl-pds">"</span>vertical<span class="pl-pds">"</span></span>
+    tools:context=<span class="pl-s"><span class="pl-pds">"</span>.MainActivity<span class="pl-pds">"</span></span>&gt;
 
     &lt;TextView
-        android:layout_width="fill_parent"
-        android:layout_height="match_parent"
-        android:text="按钮事件" /&gt;
+        android:layout_width=<span class="pl-s"><span class="pl-pds">"</span>fill_parent<span class="pl-pds">"</span></span>
+        android:layout_height=<span class="pl-s"><span class="pl-pds">"</span>match_parent<span class="pl-pds">"</span></span>
+        android:text=<span class="pl-s"><span class="pl-pds">"</span>按钮事件<span class="pl-pds">"</span></span> /&gt;
 
     &lt;Button
-        android:id="@+id/btn1"
-        android:layout_width="120dp"
-        android:layout_height="wrap_content"
-        android:text="按钮一" /&gt;
+        android:id=<span class="pl-s"><span class="pl-pds">"</span>@+id/btn1<span class="pl-pds">"</span></span>
+        android:layout_width=<span class="pl-s"><span class="pl-pds">"</span>120dp<span class="pl-pds">"</span></span>
+        android:layout_height=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+        android:text=<span class="pl-s"><span class="pl-pds">"</span>按钮一<span class="pl-pds">"</span></span> /&gt;
 
     &lt;Button
-        android:id="@+id/btn2"
-        android:layout_width="240px"
-        android:layout_height="wrap_content"
-        android:text="按钮二" /&gt;
+        android:id=<span class="pl-s"><span class="pl-pds">"</span>@+id/btn2<span class="pl-pds">"</span></span>
+        android:layout_width=<span class="pl-s"><span class="pl-pds">"</span>240px<span class="pl-pds">"</span></span>
+        android:layout_height=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+        android:text=<span class="pl-s"><span class="pl-pds">"</span>按钮二<span class="pl-pds">"</span></span> /&gt;
     &lt;Button
-        android:id="@+id/btn3"
-        android:layout_width="240px"
-        android:layout_height="wrap_content"
-        android:text="按钮三" /&gt;
+        android:id=<span class="pl-s"><span class="pl-pds">"</span>@+id/btn3<span class="pl-pds">"</span></span>
+        android:layout_width=<span class="pl-s"><span class="pl-pds">"</span>240px<span class="pl-pds">"</span></span>
+        android:layout_height=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+        android:text=<span class="pl-s"><span class="pl-pds">"</span>按钮三<span class="pl-pds">"</span></span> /&gt;
     &lt;Button
-        android:id="@+id/btn4"
-        android:layout_width="240px"
-        android:layout_height="wrap_content"
-        android:text="按钮四" /&gt;
+        android:id=<span class="pl-s"><span class="pl-pds">"</span>@+id/btn4<span class="pl-pds">"</span></span>
+        android:layout_width=<span class="pl-s"><span class="pl-pds">"</span>240px<span class="pl-pds">"</span></span>
+        android:layout_height=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+        android:text=<span class="pl-s"><span class="pl-pds">"</span>按钮四<span class="pl-pds">"</span></span> /&gt;
 
 &lt;/LinearLayout&gt;</pre></div>
 <hr>
@@ -356,53 +356,53 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 import android.view.View.OnClickListener;
 
-public class MainActivity extends AppCompatActivity {
+public <span class="pl-k">class</span> <span class="pl-en">MainActivity</span> extends AppCompatActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(<span class="pl-smi">this</span>);
-        setContentView(R.layout.activity_main);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -&gt; {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
+    protected <span class="pl-k">void</span> <span class="pl-en">onCreate</span>(Bundle savedInstanceState) {
+        super.<span class="pl-c1">onCreate</span>(savedInstanceState);
+        EdgeToEdge.<span class="pl-c1">enable</span>(<span class="pl-c1">this</span>);
+        <span class="pl-c1">setContentView</span>(R.<span class="pl-smi">layout</span>.<span class="pl-smi">activity_main</span>);
+        ViewCompat.<span class="pl-c1">setOnApplyWindowInsetsListener</span>(<span class="pl-c1">findViewById</span>(R.<span class="pl-smi">id</span>.<span class="pl-smi">main</span>), (v, insets) -&gt; {
+            Insets systemBars = insets.<span class="pl-c1">getInsets</span>(WindowInsetsCompat.<span class="pl-smi">Type</span>.<span class="pl-c1">systemBars</span>());
+            v.<span class="pl-c1">setPadding</span>(systemBars.<span class="pl-smi">left</span>, systemBars.<span class="pl-smi">top</span>, systemBars.<span class="pl-smi">right</span>, systemBars.<span class="pl-smi">bottom</span>);
+            <span class="pl-k">return</span> insets;
         });
 
-        Button btn1 = (Button)findViewById(R.id.btn1);
-        Button btn2 = (Button)findViewById(R.id.btn2);
-        Button btn3 = (Button)findViewById(R.id.btn3);
-        Button btn4 = (Button)findViewById(R.id.btn4);
+        <span class="pl-bu">Button</span> btn1 = (<span class="pl-bu">Button</span>)<span class="pl-c1">findViewById</span>(R.<span class="pl-smi">id</span>.<span class="pl-smi">btn1</span>);
+        <span class="pl-bu">Button</span> btn2 = (<span class="pl-bu">Button</span>)<span class="pl-c1">findViewById</span>(R.<span class="pl-smi">id</span>.<span class="pl-smi">btn2</span>);
+        <span class="pl-bu">Button</span> btn3 = (<span class="pl-bu">Button</span>)<span class="pl-c1">findViewById</span>(R.<span class="pl-smi">id</span>.<span class="pl-smi">btn3</span>);
+        <span class="pl-bu">Button</span> btn4 = (<span class="pl-bu">Button</span>)<span class="pl-c1">findViewById</span>(R.<span class="pl-smi">id</span>.<span class="pl-smi">btn4</span>);
 
-        btn1.setOnClickListener(listener);
-        btn2.setOnClickListener(listener);
-        btn3.setOnClickListener(listener);
-        btn4.setOnClickListener(listener);
+        btn1.<span class="pl-c1">setOnClickListener</span>(listener);
+        btn2.<span class="pl-c1">setOnClickListener</span>(listener);
+        btn3.<span class="pl-c1">setOnClickListener</span>(listener);
+        btn4.<span class="pl-c1">setOnClickListener</span>(listener);
 
     }
 
     private OnClickListener listener = <span class="pl-k">new</span> OnClickListener() {
 
         @Override
-        <span class="pl-k">public</span> void onClick(View view) {
-            Button btn = (Button)view;
-            switch (btn.getId()){
-                case R.id.btn1:
-                    Toast.makeText(MainActivity.this, "按钮一事件",Toast.LENGTH_LONG).show();
-                    break;
-                case R.id.btn2:
-                    Toast.makeText(MainActivity.this, "按钮二事件",Toast.LENGTH_SHORT).show();
-                    break;
-                case R.id.btn3:
-                    Toast.makeText(MainActivity.this, "按钮三事件",Toast.LENGTH_SHORT).show();
-                    break;
-                case R.id.btn4:
-                    Toast.makeText(MainActivity.this, "按钮四事件",Toast.LENGTH_SHORT).show();
-                    break;
+        public <span class="pl-k">void</span> <span class="pl-smi">onClick</span>(View view) {
+            <span class="pl-bu">Button</span> btn = (<span class="pl-bu">Button</span>)view;
+            <span class="pl-k">switch</span> (btn.<span class="pl-c1">getId</span>()){
+                <span class="pl-k">case</span> R.<span class="pl-smi">id</span>.<span class="pl-smi">btn1</span>:
+                    Toast.<span class="pl-c1">makeText</span>(MainActivity.<span class="pl-smi">this</span>, <span class="pl-s"><span class="pl-pds">"</span>按钮一事件<span class="pl-pds">"</span></span>,Toast.<span class="pl-smi">LENGTH_LONG</span>).<span class="pl-c1">show</span>();
+                    <span class="pl-k">break</span>;
+                <span class="pl-k">case</span> R.<span class="pl-smi">id</span>.<span class="pl-smi">btn2</span>:
+                    Toast.<span class="pl-c1">makeText</span>(MainActivity.<span class="pl-smi">this</span>, <span class="pl-s"><span class="pl-pds">"</span>按钮二事件<span class="pl-pds">"</span></span>,Toast.<span class="pl-smi">LENGTH_SHORT</span>).<span class="pl-c1">show</span>();
+                    <span class="pl-k">break</span>;
+                <span class="pl-k">case</span> R.<span class="pl-smi">id</span>.<span class="pl-smi">btn3</span>:
+                    Toast.<span class="pl-c1">makeText</span>(MainActivity.<span class="pl-smi">this</span>, <span class="pl-s"><span class="pl-pds">"</span>按钮三事件<span class="pl-pds">"</span></span>,Toast.<span class="pl-smi">LENGTH_SHORT</span>).<span class="pl-c1">show</span>();
+                    <span class="pl-k">break</span>;
+                <span class="pl-k">case</span> R.<span class="pl-smi">id</span>.<span class="pl-smi">btn4</span>:
+                    Toast.<span class="pl-c1">makeText</span>(MainActivity.<span class="pl-smi">this</span>, <span class="pl-s"><span class="pl-pds">"</span>按钮四事件<span class="pl-pds">"</span></span>,Toast.<span class="pl-smi">LENGTH_SHORT</span>).<span class="pl-c1">show</span>();
+                    <span class="pl-k">break</span>;
             }
         }
     };
-}</pre></div>
+}<span class="pl-ii"></span></pre></div>
 <hr>
 <p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/72d7a54f-c7c2-48ce-b665-7b8dbdc9e3c9"><img src="https://github.com/user-attachments/assets/72d7a54f-c7c2-48ce-b665-7b8dbdc9e3c9" alt="image" style="max-width: 100%;"></a></p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
